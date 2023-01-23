@@ -66,13 +66,15 @@ extension HomeViewController: HomeViewDelegate {
         self.present(viewController, animated: true)
     }
     
-    func showAlert() {
-        let alert = UIAlertController(title: "An error has occurred while fetching the products!",
-                                      message: "Please, try again",
-                                      preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK",
-                                      style: .default, handler: { _ in }))
-        self.present(alert, animated: true, completion: nil)
+    func showAlert(message: String) {
+        DispatchQueue.main.async {
+            let alert = UIAlertController(title: "An error has occurred while fetching the products!",
+                                          message: message,
+                                          preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK",
+                                          style: .default, handler: { _ in }))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
     
 }

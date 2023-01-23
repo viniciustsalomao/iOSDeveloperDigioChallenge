@@ -13,13 +13,13 @@ enum HTTPMethod: String {
 }
 
 enum HTTPStatusCode: Int {
-    case ok = 200
+    case okRequest = 200
     case badRequest = 400
     case unauthorized = 401
     case internalServerError = 500
 }
 
-class Service <T:Decodable> {
+class Service <T: Decodable> {
 
     let session = URLSession.shared
 
@@ -29,33 +29,7 @@ class Service <T:Decodable> {
         let task = session.dataTask(with: request) { data, response, error in
             do {
                 let httpResponse = response as? HTTPURLResponse
-                if httpResponse?.statusCode != HTTPStatusCode.ok.rawValue {
-                    print(httpResponse!.statusCode)
-                    completion(.failure(CustomError.httpError(httpResponse?.statusCode ?? 0)))
-                } else {
-                    if let data = data {
-                        let decoder = JSONDecoder()
-                        let jsonData = try decoder.decode(T.self, from: data)
-
-                        completion(.success(jsonData))
-                    } else if let error = error {
-                        completion(.failure(CustomError.responseError(error.localizedDescription)))
-                    }
-                }
-            } catch {
-                completion(.failure(CustomError.genericError))
-            }
-        }
-        task.resume()
-    }
-
-    func postData(url: URL, body: [String: String] = [:], completion: @escaping (Result<T, CustomError>) -> Void) {
-        let request = createRequest(method: HTTPMethod.POST.rawValue, url: url, body: body)
-
-        let task = session.dataTask(with: request) { data, response, error in
-            do {
-                let httpResponse = response as? HTTPURLResponse
-                if httpResponse?.statusCode != HTTPStatusCode.ok.rawValue {
+                if httpResponse?.statusCode != HTTPStatusCode.okRequest.rawValue {
                     print(httpResponse!.statusCode)
                     completion(.failure(CustomError.httpError(httpResponse?.statusCode ?? 0)))
                 } else {

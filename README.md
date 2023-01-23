@@ -29,7 +29,7 @@ Decidi realizar o desenvolvimento da UI do projeto utilizando o ViewCode, uma me
 
 Vinícius Tinajero Salomão – LinkedIn(https://www.linkedin.com/in/vinicius-tinajero-salomao/)
 
-[swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
+[swift-image]:https://img.shields.io/badge/swift-4.2-orange.svg
 [swift-url]: https://swift.org/
 [license-image]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: LICENSE

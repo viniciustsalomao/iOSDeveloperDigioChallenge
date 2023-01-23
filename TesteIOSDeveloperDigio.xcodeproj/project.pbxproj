@@ -16,9 +16,7 @@
 		DD9382732978855500877497 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9382722978855500877497 /* HomeViewController.swift */; };
 		DD9382782978855800877497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9382772978855800877497 /* Assets.xcassets */; };
 		DD93827B2978855800877497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9382792978855800877497 /* LaunchScreen.storyboard */; };
-		DD9382862978855800877497 /* TesteIOSDeveloperDigioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9382852978855800877497 /* TesteIOSDeveloperDigioTests.swift */; };
-		DD9382902978855800877497 /* TesteIOSDeveloperDigioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD93828F2978855800877497 /* TesteIOSDeveloperDigioUITests.swift */; };
-		DD9382922978855800877497 /* TesteIOSDeveloperDigioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9382912978855800877497 /* TesteIOSDeveloperDigioUITestsLaunchTests.swift */; };
+		DD9382862978855800877497 /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9382852978855800877497 /* HomeViewModelTests.swift */; };
 		DD93829F2978872D00877497 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = DD93829E2978872C00877497 /* .swiftlint.yml */; };
 		DD9382A22978892E00877497 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DD9382A12978892E00877497 /* Podfile */; };
 		DD9382AD2979D71300877497 /* HomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9382AC2979D71300877497 /* HomeService.swift */; };
@@ -36,20 +34,16 @@
 		DD96C9B2297EDEE80023D3EE /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96C9B1297EDEE80023D3EE /* DetailsView.swift */; };
 		DD96C9B4297F01DA0023D3EE /* DetailsView+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD96C9B3297F01DA0023D3EE /* DetailsView+UI.swift */; };
 		DD96C9BA297F16800023D3EE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DD96C9B9297F16800023D3EE /* .gitignore */; };
+		DDAE3F6C297F1A9D001CB0C7 /* responseJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = DDAE3F6B297F1A9D001CB0C7 /* responseJSON.json */; };
+		DDAE3F70297F1AD2001CB0C7 /* ServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE3F6F297F1AD2001CB0C7 /* ServiceMock.swift */; };
+		DDAE3F72297F1B40001CB0C7 /* ResourcesHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE3F71297F1B40001CB0C7 /* ResourcesHelper.swift */; };
+		DDAE3F74297F1B71001CB0C7 /* HomeServiceMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAE3F73297F1B71001CB0C7 /* HomeServiceMock.swift */; };
 		DDE7FD30297B338800F34815 /* BannerCarouselDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7FD2F297B338800F34815 /* BannerCarouselDataSource.swift */; };
 		DDE7FD33297B348200F34815 /* ProductCarouselCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE7FD32297B348200F34815 /* ProductCarouselCell.swift */; };
-		F080C4D68CF177FBA461F830 /* Pods_TesteIOSDeveloperDigio_TesteIOSDeveloperDigioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4143F4F3E04DF5D0737FB1BB /* Pods_TesteIOSDeveloperDigio_TesteIOSDeveloperDigioUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		DD9382822978855800877497 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DD9382632978855500877497 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DD93826A2978855500877497;
-			remoteInfo = TesteIOSDeveloperDigio;
-		};
-		DD93828C2978855800877497 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DD9382632978855500877497 /* Project object */;
 			proxyType = 1;
@@ -76,10 +70,7 @@
 		DD93827A2978855800877497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD93827C2978855800877497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD9382812978855800877497 /* TesteIOSDeveloperDigioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteIOSDeveloperDigioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD9382852978855800877497 /* TesteIOSDeveloperDigioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteIOSDeveloperDigioTests.swift; sourceTree = "<group>"; };
-		DD93828B2978855800877497 /* TesteIOSDeveloperDigioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteIOSDeveloperDigioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD93828F2978855800877497 /* TesteIOSDeveloperDigioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteIOSDeveloperDigioUITests.swift; sourceTree = "<group>"; };
-		DD9382912978855800877497 /* TesteIOSDeveloperDigioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteIOSDeveloperDigioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DD9382852978855800877497 /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		DD93829E2978872C00877497 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		DD9382A12978892E00877497 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DD9382AC2979D71300877497 /* HomeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeService.swift; sourceTree = "<group>"; };
@@ -98,6 +89,10 @@
 		DD96C9B3297F01DA0023D3EE /* DetailsView+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailsView+UI.swift"; sourceTree = "<group>"; };
 		DD96C9B6297F0C670023D3EE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD96C9B9297F16800023D3EE /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DDAE3F6B297F1A9D001CB0C7 /* responseJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = responseJSON.json; sourceTree = "<group>"; };
+		DDAE3F6F297F1AD2001CB0C7 /* ServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceMock.swift; sourceTree = "<group>"; };
+		DDAE3F71297F1B40001CB0C7 /* ResourcesHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesHelper.swift; sourceTree = "<group>"; };
+		DDAE3F73297F1B71001CB0C7 /* HomeServiceMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeServiceMock.swift; sourceTree = "<group>"; };
 		DDE7FD2F297B338800F34815 /* BannerCarouselDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCarouselDataSource.swift; sourceTree = "<group>"; };
 		DDE7FD32297B348200F34815 /* ProductCarouselCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCarouselCell.swift; sourceTree = "<group>"; };
 		DF15362625EF5F01C721AFD0 /* Pods-TesteIOSDeveloperDigioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TesteIOSDeveloperDigioTests.debug.xcconfig"; path = "Target Support Files/Pods-TesteIOSDeveloperDigioTests/Pods-TesteIOSDeveloperDigioTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,14 +113,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5719463ACCB74800C4295392 /* Pods_TesteIOSDeveloperDigioTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD9382882978855800877497 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F080C4D68CF177FBA461F830 /* Pods_TesteIOSDeveloperDigio_TesteIOSDeveloperDigioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +149,6 @@
 				DD96C9B9297F16800023D3EE /* .gitignore */,
 				DD93826D2978855500877497 /* TesteIOSDeveloperDigio */,
 				DD9382842978855800877497 /* TesteIOSDeveloperDigioTests */,
-				DD93828E2978855800877497 /* TesteIOSDeveloperDigioUITests */,
 				DD93826C2978855500877497 /* Products */,
 				A477EA982AC21A0C165CBC42 /* Pods */,
 				FF1CA61815BE2668C6B392B2 /* Frameworks */,
@@ -174,7 +160,6 @@
 			children = (
 				DD93826B2978855500877497 /* TesteIOSDeveloperDigio.app */,
 				DD9382812978855800877497 /* TesteIOSDeveloperDigioTests.xctest */,
-				DD93828B2978855800877497 /* TesteIOSDeveloperDigioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,18 +181,10 @@
 		DD9382842978855800877497 /* TesteIOSDeveloperDigioTests */ = {
 			isa = PBXGroup;
 			children = (
-				DD9382852978855800877497 /* TesteIOSDeveloperDigioTests.swift */,
+				DDAE3F6D297F1AA3001CB0C7 /* Base */,
+				DDAE3F68297F1A24001CB0C7 /* Home */,
 			);
 			path = TesteIOSDeveloperDigioTests;
-			sourceTree = "<group>";
-		};
-		DD93828E2978855800877497 /* TesteIOSDeveloperDigioUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD93828F2978855800877497 /* TesteIOSDeveloperDigioUITests.swift */,
-				DD9382912978855800877497 /* TesteIOSDeveloperDigioUITestsLaunchTests.swift */,
-			);
-			path = TesteIOSDeveloperDigioUITests;
 			sourceTree = "<group>";
 		};
 		DD9382A32979CE4600877497 /* View */ = {
@@ -339,6 +316,49 @@
 			path = DataSource;
 			sourceTree = "<group>";
 		};
+		DDAE3F68297F1A24001CB0C7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DDAE3F6A297F1A3C001CB0C7 /* Service */,
+				DDAE3F69297F1A2E001CB0C7 /* ViewModel */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DDAE3F69297F1A2E001CB0C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD9382852978855800877497 /* HomeViewModelTests.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDAE3F6A297F1A3C001CB0C7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DDAE3F73297F1B71001CB0C7 /* HomeServiceMock.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DDAE3F6D297F1AA3001CB0C7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DDAE3F6E297F1AB3001CB0C7 /* Resources */,
+				DDAE3F6F297F1AD2001CB0C7 /* ServiceMock.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DDAE3F6E297F1AB3001CB0C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDAE3F6B297F1A9D001CB0C7 /* responseJSON.json */,
+				DDAE3F71297F1B40001CB0C7 /* ResourcesHelper.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		DDE7FD31297B346800F34815 /* ProductsCarouselCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,26 +419,6 @@
 			productReference = DD9382812978855800877497 /* TesteIOSDeveloperDigioTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DD93828A2978855800877497 /* TesteIOSDeveloperDigioUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DD93829B2978855800877497 /* Build configuration list for PBXNativeTarget "TesteIOSDeveloperDigioUITests" */;
-			buildPhases = (
-				F699CCF94F6EA7D06FE0F3CB /* [CP] Check Pods Manifest.lock */,
-				DD9382872978855800877497 /* Sources */,
-				DD9382882978855800877497 /* Frameworks */,
-				DD9382892978855800877497 /* Resources */,
-				459E28CDD55AFB2B64897AF8 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DD93828D2978855800877497 /* PBXTargetDependency */,
-			);
-			name = TesteIOSDeveloperDigioUITests;
-			productName = TesteIOSDeveloperDigioUITests;
-			productReference = DD93828B2978855800877497 /* TesteIOSDeveloperDigioUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -433,10 +433,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					DD9382802978855800877497 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = DD93826A2978855500877497;
-					};
-					DD93828A2978855800877497 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = DD93826A2978855500877497;
 					};
@@ -457,7 +453,6 @@
 			targets = (
 				DD93826A2978855500877497 /* TesteIOSDeveloperDigio */,
 				DD9382802978855800877497 /* TesteIOSDeveloperDigioTests */,
-				DD93828A2978855800877497 /* TesteIOSDeveloperDigioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -479,13 +474,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD9382892978855800877497 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				DDAE3F6C297F1A9D001CB0C7 /* responseJSON.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,23 +525,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		459E28CDD55AFB2B64897AF8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		896F157E7CF23DC4C05BB5C7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,28 +558,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: Swiftlint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		F699CCF94F6EA7D06FE0F3CB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -644,16 +594,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD9382862978855800877497 /* TesteIOSDeveloperDigioTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DD9382872978855800877497 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DD9382922978855800877497 /* TesteIOSDeveloperDigioUITestsLaunchTests.swift in Sources */,
-				DD9382902978855800877497 /* TesteIOSDeveloperDigioUITests.swift in Sources */,
+				DDAE3F74297F1B71001CB0C7 /* HomeServiceMock.swift in Sources */,
+				DDAE3F72297F1B40001CB0C7 /* ResourcesHelper.swift in Sources */,
+				DD9382862978855800877497 /* HomeViewModelTests.swift in Sources */,
+				DDAE3F70297F1AD2001CB0C7 /* ServiceMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,11 +608,6 @@
 			isa = PBXTargetDependency;
 			target = DD93826A2978855500877497 /* TesteIOSDeveloperDigio */;
 			targetProxy = DD9382822978855800877497 /* PBXContainerItemProxy */;
-		};
-		DD93828D2978855800877497 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DD93826A2978855500877497 /* TesteIOSDeveloperDigio */;
-			targetProxy = DD93828C2978855800877497 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -820,6 +759,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -848,6 +790,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigio;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,7 +808,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -883,7 +828,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigioTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -891,42 +836,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TesteIOSDeveloperDigio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TesteIOSDeveloperDigio";
-			};
-			name = Release;
-		};
-		DD93829C2978855800877497 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C67422F2DB912112EF581D8A /* Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TesteIOSDeveloperDigio;
-			};
-			name = Debug;
-		};
-		DD93829D2978855800877497 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C11E85CE98FA0184DF2511A /* Pods-TesteIOSDeveloperDigio-TesteIOSDeveloperDigioUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.viniciustsalomao.TesteIOSDeveloperDigioUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TesteIOSDeveloperDigio;
 			};
 			name = Release;
 		};
@@ -956,15 +865,6 @@
 			buildConfigurations = (
 				DD9382992978855800877497 /* Debug */,
 				DD93829A2978855800877497 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DD93829B2978855800877497 /* Build configuration list for PBXNativeTarget "TesteIOSDeveloperDigioUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD93829C2978855800877497 /* Debug */,
-				DD93829D2978855800877497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

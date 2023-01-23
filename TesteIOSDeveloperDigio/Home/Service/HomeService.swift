@@ -8,21 +8,21 @@
 import Foundation
 
 class HomeService {
-    let service: Service<HomeResponse>
+    var service: Service<HomeResponse>
     
     init() {
         service = Service()
     }
     
-    func getProducts(completion: @escaping (HomeResponse?) -> Void) {
+    func getProducts(completion: @escaping (Result<HomeResponse, Error>) -> Void) {
         guard let url = Environment.products.url else { return }
         service.getData(url: url, completion: { result  in
             switch result {
             case .failure(let error):
                 print(error.localizedDescription)
-                completion(nil)
+                completion(.failure(error))
             case .success(let response):
-                completion(response)
+                completion(.success(response))
             }
         })
     }

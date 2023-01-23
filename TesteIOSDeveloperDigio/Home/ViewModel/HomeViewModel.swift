@@ -14,16 +14,12 @@ protocol HomeProtocol {
 
 class HomeViewModel: HomeProtocol {
     
-//    var spotLight: [Spotlight]?
-//    var products: [Product]?
-//    var cash: Cash?
-    
     var spotLight: [Product]?
     var products: [Product]?
     var cash: Product?
     
     var bindSuccess: (() -> ())?
-    var bindFailure: (() -> ())?
+    var bindFailure: ((_ error: Error) -> ())?
     
     let service: HomeService
 
@@ -33,20 +29,18 @@ class HomeViewModel: HomeProtocol {
     
     func getProducts() {
         service.getProducts(completion: { result in
-            if let result = result {
-                self.spotLight = result.spotlight
-                self.products = result.products
-                self.cash = result.cash
+            switch result {
+            case .success(let data):
+                self.spotLight = data.spotlight
+                self.products = data.products
+                self.cash = data.cash
                 
                 self.bindSuccess?()
-            } else {
-                self.bindFailure?()
+
+            case .failure(let errorMessage):
+                self.bindFailure?(errorMessage)
             }
         })
-    }
-    
-    func getProductDetail(of productIndex: Int) -> Product {
-        return (products?[productIndex])!
     }
 
 }

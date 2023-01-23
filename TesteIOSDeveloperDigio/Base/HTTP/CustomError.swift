@@ -5,7 +5,6 @@
 //  Created by Vinícius Tinajero Salomão on 19/01/23.
 //
 
-
 import Foundation
 
 enum CustomError: Error, Equatable {

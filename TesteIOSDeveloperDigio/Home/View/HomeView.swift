@@ -11,7 +11,7 @@ protocol HomeViewDelegate: AnyObject {
     func goToDetailsBanner(of productIndex: Int)
     func goToDetailsProducts(of productIndex: Int)
     func goToDetailsCash()
-    func showAlert()
+    func showAlert(message: String)
 }
 
 final class HomeView: UIView {
@@ -154,8 +154,8 @@ final class HomeView: UIView {
             }
         }
         
-        viewModel.bindFailure = { [weak self] in
-            self?.delegate?.showAlert()
+        viewModel.bindFailure = { [weak self] error in
+            self?.delegate?.showAlert(message: error.localizedDescription)
         }
     }
 
