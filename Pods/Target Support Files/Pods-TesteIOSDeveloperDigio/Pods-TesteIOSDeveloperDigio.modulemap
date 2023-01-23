@@ -1,0 +1,6 @@
+framework module Pods_TesteIOSDeveloperDigio {
+  umbrella header "Pods-TesteIOSDeveloperDigio-umbrella.h"
+
+  export *
+  module * { export * }
+}
