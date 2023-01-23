@@ -156,8 +156,8 @@
 		DD9382622978855500877497 = {
 			isa = PBXGroup;
 			children = (
-				DD93829E2978872C00877497 /* .swiftlint.yml */,
 				DD96C9B6297F0C670023D3EE /* README.md */,
+				DD93829E2978872C00877497 /* .swiftlint.yml */,
 				DD9382A12978892E00877497 /* Podfile */,
 				DD96C9B9297F16800023D3EE /* .gitignore */,
 				DD93826D2978855500877497 /* TesteIOSDeveloperDigio */,
